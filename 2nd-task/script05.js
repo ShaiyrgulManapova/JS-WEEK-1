@@ -12,3 +12,13 @@ let userCardNumber = prompt('Введите номер Вашей кредитн
 alert(`Номер Вашей кредитной карты: ${userCardNumber.replace(userCardNumber.slice(0, -4), "************")}`);
 
 console.log(`Номер Вашей кредитной карты: ${userCardNumber.replace(userCardNumber.slice(0, -4), "************")}`);
+
+
+// 2nd Solution:
+
+// let userCardNumber = prompt("Введите номер карты");
+// let numSlice = userCardNumber.slice(0, 12);
+
+// let result = userCardNumber.replace(numSlice, "************");
+
+// console.log(`Номер вашей карты: ${result}`);
